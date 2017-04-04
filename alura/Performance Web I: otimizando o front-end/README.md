@@ -4,7 +4,7 @@
     - Minificar arquivos
     - Melhorar imagens do site
       - Usar imagens já do tamanho correto, tamanho necessário a mais.
-      - Remover METADADOS http://kraken.io http://tynpng.com https://jakearchibald.github.io/svgomg/
+      - Remover METADADOS http://kraken.io http://tinypng.com https://jakearchibald.github.io/svgomg/
         - **lossless** | Não perde qualidade das imagens apenas remover informacoes desnecesarias METADADOS
         - **lossy** | Reescreve o arquivo perde qualidade porém fica menor
 
@@ -52,7 +52,7 @@
   - Servidor HTTP Google App Engine SDK for PHP
   - HTTP ARCHIVE | Site mostra performance de varios sites
   - SVG é vetorial, redimencionar apenas que sao bitmap
-  - Remover METADADOS das fotos usando http://kraken.io http://tynpng.com
+  - Remover METADADOS das fotos usando http://kraken.io http://tinypng.com
   - **SVG** eh um arquivo XML
     - <svg<defs><symbol id=""></symbol></defs></svg>
     - https://jonathantneal.github.io/svg4everybody/

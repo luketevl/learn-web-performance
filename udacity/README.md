@@ -21,35 +21,35 @@
 
 ## Making Frame
 1 - Receive the DOM
-!(DOM)[https://i.imgur.com/b7UpNPj.png]
+![DOM](https://i.imgur.com/b7UpNPj.png)
 2 - Receive the CSS
-!(CSS)[https://i.imgur.com/UYdHWkC.png]
+![CSS](https://i.imgur.com/UYdHWkC.png)
 3 - Combine DOM + CSS | Called **RECALCULATE STYLES
-!(Recalculate Styles)[https://i.imgur.com/S8etRCp.png]
+![Recalculate Styles](https://i.imgur.com/S8etRCp.png)
 4 - Generate the **Render Tree**
     - Remove scripts
     - Remove hide elements
     - Added pseudo-element 
-!(Render Tree)[https://i.imgur.com/CJuRhZK.png]
-!(Remove Elements)[https://i.imgur.com/TOqGCel.png]
-!(Add pseu elements)[https://i.imgur.com/4zhV4kN.png]
+![Render Tree](https://i.imgur.com/CJuRhZK.png)
+![Remove Elements](https://i.imgur.com/TOqGCel.png)
+![Add pseu elements](https://i.imgur.com/4zhV4kN.png)
 
 
 ## Three ways Pipeline
 
 1 - Visual change with CSS or Javascript 
-!(Visual change with CSS or Javascript)[https://i.imgur.com/6yqViLQ.png]
+![Visual change with CSS or Javascript](https://i.imgur.com/6yqViLQ.png)
 2 - Change paint property: eg: backgroud, color, text shadow
-!(Change paint property)[https://i.imgur.com/9ThmEI3.png]
+![Change paint property](https://i.imgur.com/9ThmEI3.png)
 3 - Just composite
-!(Just composite)[https://i.imgur.com/qjbQrlW.png]
+![Just composite](https://i.imgur.com/qjbQrlW.png)
 
 
 # LIFE CYCLE WEB
 
 ## RAIL - LAIR
 > **R**esponse **A**nimations **I**dle **L**oad
-!(RAIL)[https://i.imgur.com/NSGbfqU.png]
+![RAIL](https://i.imgur.com/NSGbfqU.png)
 
 # PATTERN
 
@@ -59,9 +59,9 @@
 - Firts | Where is element ended
 
 # Examples
-!(Interactions and Animations)[https://i.imgur.com/QJY2mhy.png]
+![Interactions and Animations](https://i.imgur.com/QJY2mhy.png)
 
-!(Times)[http://udacity.github.io/60fps/images/time-table.jpg]
+![Times](http://udacity.github.io/60fps/images/time-table.jpg)
 
 
 # Javascript Compilers
@@ -78,7 +78,7 @@
 
 # WebWorker
 > Execute javascript in other thread, eg: Counter
-!(WebWorker timeline)[https://i.imgur.com/IXT2rbO.png]
+![WebWorker timeline](https://i.imgur.com/IXT2rbO.png)
 
 
 # Layers 
@@ -103,7 +103,7 @@
 
 - Force Synchrony Layout
   - Remove incorrect order
-!(Force repaint)[https://i.imgur.com/OU91Hmi.png]
+![Force repaint](https://i.imgur.com/OU91Hmi.png)
 
 - Paint
    - Whole page is lighting up. This is a good sign that paint could be a performance bottleneck

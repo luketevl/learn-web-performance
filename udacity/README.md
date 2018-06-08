@@ -4,8 +4,13 @@
 - https://csstriggers.com/
 - https://github.com/udacity/devsummit/blob/master/src/static/scripts/components/card.js
 - https://speakerdeck.com/paullewis/making-a-silky-smooth-web
-
-
+- https://gist.github.com/paulirish/1579671
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+- http://www.html5rocks.com/en/tutorials/workers/basics/
+- http://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
+- http://buildnewgames.com/garbage-collector-friendly-code/
+- http://gent.ilcore.com/2011/03/how-not-to-trigger-layout-in-webkit.html
 
 # Frames
 - 1000ms
@@ -42,7 +47,7 @@
 
 # LIFE CYCLE WEB
 
-## RAIL
+## RAIL - LAIR
 > **R**esponse **A**nimations **I**dle **L**oad
 !(RAIL)[https://i.imgur.com/NSGbfqU.png]
 
@@ -58,6 +63,34 @@
 
 !(Times)[http://udacity.github.io/60fps/images/time-table.jpg]
 
+
+# Javascript Compilers
+## Just In Time
+> **J**ust **I**n **T**ime
+- Optimize the Javascript
+- Complex engine
+
+- Micro-optimizations are **last** optimization
+
+
+# Request Animation Frame
+- Ideal to create animtations
+
+# WebWorker
+> Execute javascript in other thread, eg: Counter
+!(WebWorker timeline)[https://i.imgur.com/IXT2rbO.png]
+
+
+# Layers 
+- Create new layer
+  - Example: https://www.html5rocks.com/static/demos/parallax/demo-2/demo.html
+```css
+.selector{
+  will-change: transform;
+  transform: translateZ(0); /* hack */
+}
+```
+
 # Observations
 - Frames
   - Browser need 10ms to 12ms
@@ -66,3 +99,11 @@
 - Three ways Pipeline
   - **Flexbox** dont modify the **style**
 - **Opacity** and **transform** only trigger **composite**
+- Execute JS as early as possible every frame
+
+- Force Synchrony Layout
+  - Remove incorrect order
+!(Force repaint)[https://i.imgur.com/OU91Hmi.png]
+
+- Paint
+   - Whole page is lighting up. This is a good sign that paint could be a performance bottleneck
